@@ -7,27 +7,38 @@ html {
     scroll-behavior: smooth;
 }
 
-.down {
-    margin-top: 100%;
-    padding-bottom: 25%;
-   } 
-
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.theday.com/storyimage/NL/20200618/NWS01/200619308/EP/1/3/EP-200619308.jpg&MaxW=800&q=62");
-
-  /* Set a specific height */
-  height: 40%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+   .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.theday.com/storyimage/NL/20200618/NWS01/200619308/EP/1/3/EP-200619308.jpg&MaxW=800&q=62);
+    height: 40%;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: contain;
+    position: relative;
 }
 
-/* Place text in the middle of the image */
+.btn1, .btn2, .btn3 {
+    transition-duration: 0.4s;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 5px 12px;
+    border: 3px solid #79AEA3;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+    background-color: #79AEA3;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 5px 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn1:active, .btn2:active, .btn3:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -45,4 +56,9 @@ html {
 
 .link-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.fa-solid {
+    background-color: white;
 }
