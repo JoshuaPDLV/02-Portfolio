@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     width: 100%;
+    margin: 0px;
 }
 
 html {
@@ -60,11 +61,12 @@ html {
 
 }
 
+
 div.gallery {
-    margin: 5px;
+    margin: 2%;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 300px;
   }
   
   div.gallery:hover {
@@ -76,11 +78,20 @@ div.gallery {
     height: auto;
   }
   
-  div.desc {
+  /* div.desc {
     padding: 15px;
     text-align: center;
-  }
+  } */
 
   .contact {
       width: 100%;
+  }
+
+  .my-work {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
   }
