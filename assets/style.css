@@ -31,12 +31,12 @@
   }
   
 
-  .topnav {
+  .navigation {
     overflow: hidden;
     background-color: #484041;
   }
 
-  .topnav a {
+  .navigation a {
     float: right;
     display: block;
     color: #f2f2f2;
@@ -46,29 +46,28 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
-  .topnav a:hover {
+  .navigation a:hover {
     background-color: #ddd;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
 
-  .leftcolumn {   
+  .work {   
     width: 100%;
   }
   
-  .rightcolumn {
+  .about {
     width: 100%;
   }
 
-  .card {
+  .table {
     background-color: white;
     padding: 20px;
     margin-top: 30px;
     border: 5px solid #484041;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #484041;
-    
   }
   
   .row:after {
