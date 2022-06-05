@@ -16,7 +16,7 @@ body {
     padding: 30px;
     text-align: center;
     background: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero-image.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero-image.webp);
     height: 40%;
     background-position: top;
     background-repeat: repeat;
