@@ -12,6 +12,23 @@ body {
     background: #79AEA3;
 }
 
+
+@media screen and (max-width: 800px) {
+
+    .work,
+    .about {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navigation a {
+        float: none;
+        width: 100%;
+    }
+}
+
 .header {
     padding: 30px;
     text-align: center;
@@ -124,20 +141,3 @@ body {
     border: #484041 solid 3px;
 }
 
-
-
-@media screen and (max-width: 800px) {
-
-    .work,
-    .about {
-        width: 100%;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .navigation a {
-        float: none;
-        width: 100%;
-    }
-}
