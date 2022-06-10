@@ -16,13 +16,19 @@ body {
     padding: 30px;
     text-align: center;
     background: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
     height: 40%;
     background-position: top;
     background-repeat: repeat;
     position: relative;
     border: 5px solid #484041;
 }
+
+.brd-abt {
+    width: 100%;
+}
+
+
 
 .header h1 {
     font-size: 50px;
@@ -59,6 +65,10 @@ body {
 
 .about {
     width: 100%;
+}
+
+.abt1 {
+    width: 15%;
 }
 
 .table {
