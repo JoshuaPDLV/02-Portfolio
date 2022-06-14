@@ -131,6 +131,7 @@ body {
 .shw {
     transition-duration: 0.4s;
     border: #484041 solid 3px;
+    width: 17%;
 }
 
 .shw2 {
